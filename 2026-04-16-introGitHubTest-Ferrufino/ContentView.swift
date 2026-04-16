@@ -14,6 +14,8 @@ struct ContentView: View {
                 .resizable()
                 .scaledToFit()
                 .foregroundStyle(.tint)
+                .fontWeight(.bold)
+                .padding()
             Text("Hello, world!")
         }
         .padding()
